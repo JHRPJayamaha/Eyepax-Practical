@@ -1,0 +1,25 @@
+input {
+  border: none !important;
+  border-radius: 1.2rem !important;
+}
+
+nav {
+  background-color: #3D2C8D !important;
+  color: #FFFFFF !important;
+}
+
+.card {
+  background-color: #3D2C8D !important;
+  border: none !important;
+  border-radius: 1.2rem !important;
+}
+
+.btn {
+  background-color: #916BBF !important;
+  border-color: #916BBF !important;
+  border-radius: 1.2rem !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
