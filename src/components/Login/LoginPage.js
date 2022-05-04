@@ -16,7 +16,8 @@ const LoginPage = ({ onLogin }) => {
     });
   };
 
-  const onSubmitHandler = () => {
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
     onLogin(credentials);
   };
 

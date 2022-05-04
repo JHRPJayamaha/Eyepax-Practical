@@ -11,10 +11,12 @@ function App() {
   const [error, setError] = useState();
 
   const loginHandler = ({ username, password }) => {
-    if (username === "admin" && password === "admin") {
+    if (username === "admin" && password === "admin") { //username and password is hardcoded for this practical. it is not the correct way
       setIsAuthenticated(true);
+      setError(null);
     } else {
       setError("Incorrect Username/Password");
+      setIsAuthenticated(false);
     }
   };
 
